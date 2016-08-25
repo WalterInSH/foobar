@@ -1,3 +1,6 @@
+package com.google.challenges;
+
+public class Answer {
     public static int answer(double[] y, double[] x) {
         double ysum = sum(y);
         double xsum = sum(x);
@@ -22,3 +25,4 @@
         }
         return r;
     }
+}
